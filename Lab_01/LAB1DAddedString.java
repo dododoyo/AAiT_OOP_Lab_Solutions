@@ -1,5 +1,3 @@
-import javax.annotation.processing.SupportedSourceVersion;
-
 public class LAB1DAddedString 
 {
     public static void main( String[] args)
