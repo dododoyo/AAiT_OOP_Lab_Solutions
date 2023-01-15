@@ -1,4 +1,4 @@
-public class LAB02A_GradeBookDemo_1 
+public class LAB02A_GradeBookOOPDemo 
 {
     // This is a modified version of orginal GradeBook
     public static void main(String[] args)

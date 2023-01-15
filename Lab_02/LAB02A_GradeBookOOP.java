@@ -1,12 +1,12 @@
-public class LAB02A_GradeBook 
+public class LAB02A_GradeBookOOP 
 {
     private double[] grade;
 
-    public   LAB02A_GradeBook()
+    public   LAB02A_GradeBookOOP()
     {
         grade = new double[0];
     }
-    public  LAB02A_GradeBook(double[] theInput)
+    public  LAB02A_GradeBookOOP(double[] theInput)
     {
         grade = theInput;
     }
