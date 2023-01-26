@@ -1,13 +1,13 @@
-public class LAB03A_GradeBookOO 
+class GradeBookOO1 
 {
     private double[] grade;
 
-    public   LAB03A_GradeBookOO()
+    public   GradeBookOO1()
     {
         grade = new double[0];
     }
 
-    public  LAB03A_GradeBookOO(double[] theInput)
+    public  GradeBookOO1(double[] theInput)
     {
         grade = theInput;
     }

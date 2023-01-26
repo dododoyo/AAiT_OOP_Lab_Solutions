@@ -1,9 +1,9 @@
-public class LAB03D_PointTest 
+public class PointTest 
 {
     public static void main(String[] args)
     {
-        LAB03D_Point p1 = new LAB03D_Point(); //Intialized with the values of zero.
-        LAB03D_Point p2 = new LAB03D_Point(4,6);// Initialized with the Xvalue of 4 and Yvalue of 6
+        Point p1 = new Point(); //Intialized with the values of zero.
+        Point p2 = new Point(4,6);// Initialized with the Xvalue of 4 and Yvalue of 6
 
         System.out.println("The 'x' value of point 1 is: "+p1.getX());
         System.out.println("The 'y' value of point 1 is: "+p1.getY());

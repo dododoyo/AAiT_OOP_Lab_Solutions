@@ -1,8 +1,8 @@
-public class LAB03B_GradeBookOO 
+class GradeBookOO2 
 {
-      private double[] grade;
+    private double[] grade;
 
-    public   LAB03B_GradeBookOO(int arrayLength)
+    public   GradeBookOO2(int arrayLength)
     {
         grade = new double[arrayLength];
     }
@@ -17,7 +17,7 @@ public class LAB03B_GradeBookOO
         catch(IndexOutOfBoundsException e)
         {
             System.out.println("Invalid index value.");
-            System.out.println("Please restart the program and try again.");
+            System.out.println("Please restart the program, and try again.");
             System.exit(0);
         }
     }

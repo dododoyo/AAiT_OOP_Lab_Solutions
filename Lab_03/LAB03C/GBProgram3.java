@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class LAB03C_GBProgram
+public class GBProgram3
 {
     public static void main(String args[])
     {
@@ -9,7 +9,7 @@ public class LAB03C_GBProgram
         double addedValue;
         double removedValue;
         
-        LAB03C_GradeBookOO sampleGradebook = new LAB03C_GradeBookOO();
+        GradeBookOO3 sampleGradebook = new GradeBookOO3();
 
         sampleGradebook.addGrades(45.7);
         sampleGradebook.addGrades(97.0);

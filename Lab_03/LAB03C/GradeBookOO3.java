@@ -1,14 +1,14 @@
 import java.util.ArrayList;
-public class LAB03C_GradeBookOO 
+class GradeBookOO3 
 {
     private ArrayList<Double>  grade;
 
-    public   LAB03C_GradeBookOO()
+    public   GradeBookOO3()
     {
         grade = new ArrayList<>();
     }
 
-    public  LAB03C_GradeBookOO(ArrayList<Double> theInput)
+    public  GradeBookOO3(ArrayList<Double> theInput)
     {
         grade = theInput;
     }

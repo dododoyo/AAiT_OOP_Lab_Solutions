@@ -1,17 +1,17 @@
-public class LAB03E_ComplexNumber 
+public class ComplexNumber 
 {
     private double real;
     private double imaginary;
-    public static int objectCount;
+    public static int objectCount = 0;
 
-    public LAB03E_ComplexNumber()
+    public ComplexNumber()
     {
         real = 0;
         imaginary = 0;
         objectCount++;
     }
 
-    public LAB03E_ComplexNumber(double realPart, double imaginaryPart)
+    public ComplexNumber(double realPart, double imaginaryPart)
     {
         real = realPart;
         imaginary = imaginaryPart;
@@ -38,27 +38,24 @@ public class LAB03E_ComplexNumber
         return imaginary;
     }
     
-    public LAB03E_ComplexNumber addComplex(LAB03E_ComplexNumber complex1, LAB03E_ComplexNumber complex2)
+    public ComplexNumber addComplex(ComplexNumber complex1, ComplexNumber complex2)
     {
         double realSum = complex1.getReal() + complex2.getReal();
         double imaginarySum = complex1.getImaginary() + complex2.getImaginary();
 
-        LAB03E_ComplexNumber theSum = new LAB03E_ComplexNumber(realSum,imaginarySum);
-
-        return theSum;
+        return new ComplexNumber(realSum,imaginarySum);
     }
 
-    public LAB03E_ComplexNumber subComplex(LAB03E_ComplexNumber complex1, LAB03E_ComplexNumber complex2)
+    public ComplexNumber subComplex(ComplexNumber complex1, ComplexNumber complex2)
     {
         double realSub = complex1.getReal()-complex2.getReal();
         double imaginarySub = complex1.getImaginary() - complex2.getImaginary();
 
-        LAB03E_ComplexNumber theSub = new LAB03E_ComplexNumber(realSub,imaginarySub);
         
-        return theSub;
+        return  new ComplexNumber(realSub,imaginarySub);
     }
 
-    public LAB03E_ComplexNumber mulComplex(LAB03E_ComplexNumber complex1, LAB03E_ComplexNumber complex2)
+    public ComplexNumber mulComplex(ComplexNumber complex1, ComplexNumber complex2)
     {
         // Multiplication of two complexes is given as (a+bj)(c+dj) = (ac - bd) + (ad + cb)j
 
@@ -70,20 +67,18 @@ public class LAB03E_ComplexNumber
 
         double mulReal = (real1*real2) - (imagin1*imagin2);
         double mulImagin = (real1*imagin2)+(real2*imagin1);
-
-        LAB03E_ComplexNumber theSub = new LAB03E_ComplexNumber(mulReal,mulImagin);
         
-        return theSub;
+        return new ComplexNumber(mulReal,mulImagin);
     }
 
-    public LAB03E_ComplexNumber divComplex(LAB03E_ComplexNumber complex1, LAB03E_ComplexNumber complex2)
+    public ComplexNumber divComplex(ComplexNumber complex1, ComplexNumber complex2)
     {
         // Division of two complex numbers is given as (a+bj)/(c+dj) = ((ac + bd) + (bc -ad)j)/(c^2 + d^2)
         if (complex2.getImaginary()== 0 && complex2.getReal()==0)
         {
             System.out.println("Can't perform operation, divider has modulus of zero.");
             System.out.println("Returning complex number with real part and imaginary part 0");
-            return new LAB03E_ComplexNumber();
+            return new ComplexNumber();
         }
         
         else
@@ -102,12 +97,12 @@ public class LAB03E_ComplexNumber
             double divImagin = (real2*imagin1) - (real1*imagin2);
             divImagin = divImagin/mod;
 
-            LAB03E_ComplexNumber theSub = new LAB03E_ComplexNumber(divReal,divImagin);
+            ComplexNumber theSub = new ComplexNumber(divReal,divImagin);
             return theSub;
         }
     }
 
-    public double modComplex(LAB03E_ComplexNumber theNumber)
+    public double modComplex(ComplexNumber theNumber)
     {
         double realPart = theNumber.getReal();
         double imaginPart = theNumber.getImaginary();

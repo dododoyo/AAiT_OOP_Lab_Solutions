@@ -1,10 +1,10 @@
-public class LAB03E_ComplexNumberOperationTest 
+public class ComplexNumberOperationTest 
 {
     public static void main(String[] args)
     {
-        LAB03E_ComplexNumber number1 = new LAB03E_ComplexNumber();
-        LAB03E_ComplexNumber number2 = new LAB03E_ComplexNumber(3,4);
-        LAB03E_ComplexNumber number3;//used to store values after operation
+        ComplexNumber number1 = new ComplexNumber();
+        ComplexNumber number2 = new ComplexNumber(3,4);
+        //LAB03E_ComplexNumber number3;//used to store values after operation
 
 
         // Setting the value of complex number 1 using setter methods
@@ -20,23 +20,24 @@ public class LAB03E_ComplexNumberOperationTest
         System.out.println("The imaginary part of the second complex number is "+number2.getImaginary());
         System.out.println();
 
+
         //Testing addition method 
-        number3 = number1.addComplex(number1, number2);
-        System.out.println("The addition of the two numbers equals "+ number3.showComplex());
+        //number3 = number1.addComplex(number1, number2).showComplex();
+        System.out.println("The addition of the two numbers equals "+ number1.addComplex(number1, number2).showComplex());
         System.out.println();
         //Testing subtraction method 
-        number3 = number1.subComplex(number1, number2);
-        System.out.println("The subtraction of the two numbers equals "+ number3.showComplex());
+        //number3 = number1.subComplex(number1, number2);
+        System.out.println("The subtraction of the two numbers equals "+ number1.subComplex(number1, number2).showComplex());
         System.out.println();
 
         //Testing multiplication method 
-        number3 = number1.mulComplex(number1, number2);
-        System.out.println("The multiplication of the two numbers equals "+ number3.showComplex());
+       
+        System.out.println("The multiplication of the two numbers equals "+ number1.mulComplex(number1, number2).showComplex());
         System.out.println();
 
         //Testing division method 
-        number3 = number1.divComplex(number1, number2);
-        System.out.println("The division of the two numbers equals "+ number3.showComplex());
+        
+        System.out.println("The division of the two numbers equals "+ number1.divComplex(number1, number2).showComplex());
         System.out.println();
 
         //Testing the modulus method of both numbers
@@ -46,6 +47,9 @@ public class LAB03E_ComplexNumberOperationTest
 
         double mod2 = number2.modComplex(number2);
         System.out.println("The modulus of the second complex number equals "+ mod2);
+
+        //Display how many objects are created of complex number
+        System.out.println("\nThere are " + ComplexNumber.objectCount + " objects created of type complex number.");
 
     }   
 }

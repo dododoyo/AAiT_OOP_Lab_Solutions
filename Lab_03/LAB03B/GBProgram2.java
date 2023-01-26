@@ -1,12 +1,19 @@
 import java.util.*;
-public class LAB03A_GBProgram
+class GBProgram2
 {
     public static void main(String args[])
     {
         Scanner kb = new Scanner(System.in);
         int response;
-        double[] sampleGrades = {45.0,59.0,68.9,87.5,79.8};
-        LAB03A_GradeBookOO sampleGradebook = new LAB03A_GradeBookOO(sampleGrades);
+        int length = 6;
+        GradeBookOO2 sampleGradebook = new GradeBookOO2(length);
+
+        sampleGradebook.addGrades(45.7, 0);
+        sampleGradebook.addGrades(97.0, 1);
+        sampleGradebook.addGrades(85.0, 2);
+        sampleGradebook.addGrades(77.9, 3);
+        sampleGradebook.addGrades(65.8, 4);
+        sampleGradebook.addGrades(59.4, 5);
         
         do
         {
