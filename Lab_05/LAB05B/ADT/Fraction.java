@@ -73,11 +73,11 @@ public class Fraction
         
 
         if(isPrime(numeratorOfFraction) && isPrime(denominatorOfFraction))
-        simplifiedFraction = fractionToBeSimplified;
+        return fractionToBeSimplified;
 
         else 
         {
-            int divider = 2;
+            int divider = 1;
 
             for(int i = 2 ; i <= min ;i++)
             {
@@ -90,19 +90,17 @@ public class Fraction
 
             }
 
-            if(numeratorOfFraction%divider == 0 && denominatorOfFraction%divider == 0)
+            if (divider == 1)
             {
-                fractionToBeSimplified.setDenominator(denominatorOfFraction/divider);
-                fractionToBeSimplified.setNumerator(numeratorOfFraction/divider);
-                simplify(fractionToBeSimplified);
+                return fractionToBeSimplified;
             }
             else
             {
-                return simplifiedFraction = fractionToBeSimplified;
+                simplifiedFraction(fractionToBeSimplified);
             }
         }
 
-        return simplifiedFraction;
+        //return simplifiedFraction;
 
     }
 
