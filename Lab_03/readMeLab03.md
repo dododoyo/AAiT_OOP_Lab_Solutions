@@ -1,5 +1,7 @@
 # Laboratory Exercises #3
 
+[All Exercises](../README.md)
+
 [<< Laboratory Exercise 02](../Lab_02/readMeLab02.md) | [Laboratory Exercise 04 >>](../Lab_04/readMeLab04.md)
 
 ## Objective
