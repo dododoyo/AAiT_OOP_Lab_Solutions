@@ -1,5 +1,7 @@
 # Laboratory Exercises #3
 
+[<< Laboratory Exercise 02](../Lab_02/readMeLab02.md) | [Laboratory Exercise 04 >>](../Lab_04/readMeLab04.md)
+
 ## Objective
 
 -  Enabling students to develop modularize code using Java methods.
@@ -13,6 +15,7 @@
 
 
 <center>
+
 ### Feel free to report any typos on [dododoyo](https://github.com/dododoyo)
 
 ### HAPPY CODING  

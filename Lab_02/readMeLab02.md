@@ -1,5 +1,7 @@
 # Laboratory Exercises #2
 
+[<< Laboratory Exercise 01](../Lab_01/readMeLab01.md) | [Laboratory Exercise 03 >>](../Lab_03/readMeLab03.md)
+
 ## Objective
 
 -  Enabling students to develop modularize code using Java methods.
@@ -642,7 +644,6 @@ public class ESPGame
     }
 }
 ```
-
 <center>
 
 ### Feel free to report any typos on [dododoyo](https://github.com/dododoyo)

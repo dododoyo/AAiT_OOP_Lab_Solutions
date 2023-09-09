@@ -1,5 +1,7 @@
 # Laboratory Exercises #7
 
+[<< Laboratory Exercise 06](../Lab_06/readMeLab06.md) | [Laboratory Exercise 08 >>](../Lab_08/readMeLab08.md)
+
 ## Objective
 - Understanding the Concept of polymorphism using class hierarchy.
 - Understanding the basics of UML class diagrams which ease the object oriented analysis and design tasks.

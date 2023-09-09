@@ -1,5 +1,8 @@
 # Laboratory Exercises #1
 
+[Laboratory Exercise 02 >>](../Lab_02/readMeLab02.md)
+
+
 ## Objective
 - Compiling and Running Simple Java Program From Windows Command Prompt(CMD) or Linux Terminal
 

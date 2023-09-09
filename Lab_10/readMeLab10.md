@@ -1,8 +1,9 @@
 # Laboratory Exercises #10
 
+[<< Laboratory Exercise 09](../Lab_09/readMeLab09.md)
 ## Objective
 
-- Introducing Java database programing using JDBC
+- Introducing Java database programming using JDBC
 
 ## Preparation Tasks
 
