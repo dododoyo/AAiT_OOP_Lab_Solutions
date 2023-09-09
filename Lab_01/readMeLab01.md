@@ -10,7 +10,7 @@
 
 ## Activities
 
-#### a. Procedures   [Solution File](./LAB1AHelloWorld.java)
+#### a. Procedures   [Solution File](./LAB01A/LAB1AHelloWorld.java)
 
 - Create a folder on your preferred directory to store the work you will do in this class. The name of
 the folder should have no spaces.
@@ -36,7 +36,7 @@ public class HelloWorld
 - Now run your program by executing the following command at the command prompt ```java HelloWorld```
 - and then press enter: 
 
-#### b. Now change the HelloWorld code so that it prints out **Goodbye, World **. [Solution File](./LAB1BGoodbyeWorld.java)
+#### b. Now change the HelloWorld code so that it prints out **Goodbye, World **. [Solution File](./LAB01B/LAB1BGoodbyeWorld.java)
 
 > Solution Code 
   
@@ -51,7 +51,7 @@ public class HelloWorld
 }
 ```
 
-#### c. The command ```System.out.println``` prints out its argument and then starts a new line. Change your program so it prints out **Hello, World** on one line and then prints out **Goodbye, World!** on the next line. [Solution File](./LAB1CHelloAndGoodbyeWorld.java)
+#### c. The command ```System.out.println``` prints out its argument and then starts a new line. Change your program so it prints out **Hello, World** on one line and then prints out **Goodbye, World!** on the next line. [Solution File](./LAB01C/LAB1CHelloAndGoodbyeWorld.java)
 > Solution Code 
 
 ```Java
@@ -65,7 +65,7 @@ public class HelloWorld
 }
 ```
 
-#### d. Add these lines to your main method and compile the code and run it. [Solution File](./LAB1DAddedString.java)
+#### d. Add these lines to your main method and compile the code and run it. [Solution File](./LAB01D/LAB1DAddedString.java)
 ```Java
   String name = “Ethiopia”;
   System.out.print(“Hello,”);
@@ -109,7 +109,7 @@ public static void main(String[ ] args) {
 }
 ```
 
-#### f. Create a new Java file with a class called UsingOperators and copy the above main method into it. [Solution File](./LAB1FUsingOperators.java)
+#### f. Create a new Java file with a class called UsingOperators and copy the above main method into it. [Solution File](./LAB01F/LAB1FUsingOperators.java)
 
 > Solution Code 
    
@@ -139,7 +139,7 @@ public class UsingOperators
 
 ```
 
-#### g. Create a new Java class called TempConverter. Add a main method to TempConverter that declares and initializes a variable to store the temperature in Celsius. In the main method, compute the temperature in Fahrenheit according to the following formula and print it to the screen. [Solution File](./LAB1GTempConverter.java)
+#### g. Create a new Java class called TempConverter. Add a main method to TempConverter that declares and initializes a variable to store the temperature in Celsius. In the main method, compute the temperature in Fahrenheit according to the following formula and print it to the screen. [Solution File](./LAB01G/LAB1GTempConverter.java)
 <center>
  Fahrenheit = 1.8×Celsius  +  32
 </center>
@@ -161,7 +161,7 @@ public class TempConverter {
 }
 ```
 
-#### h. Create a new class called **UsingControlStructures** [Solution File](./LAB1GUsingControlStructures.java)
+#### h. Create a new class called **UsingControlStructures** [Solution File](./LAB01H/LAB1HUsingControlStructures.java)
 
 - Add a main method to the class, and in the main method declare and initialize a variable to represent a person’s age.
 - In the main method, write an if-else construct to print out *“You are old enough to drive”* if the person is old enough to drive and *“You are not old enough to drive”*   if the person is too young.
@@ -182,7 +182,7 @@ public class UsingControlStructures {
     
 }
 ```
-#### i. Write a for loop and a while loop that prints out all the odd numbers from 100 to 0 in decreasing order.  [Solution File](./LAB1HUsingControlStructures.java)
+#### i. Write a for loop and a while loop that prints out all the odd numbers from 100 to 0 in decreasing order.  [Solution File](./LAB01I/LAB1IOddUptoHuno.java)
 
 > Solution Code 
 
@@ -214,7 +214,7 @@ public class OddUptoHuno
 }
 ```
 
-#### j. Create a new class called Gradebook [Solution File](./LAB1JGradeBook.java)
+#### j. Create a new class called Gradebook [Solution File](./LAB01J/LAB1JGradeBook.java)
 - Add a main method to **Gradebook**. In the main method, declare and initialize an array of doubles to store the grades of a student.
 - Write a loop to print out all the grades in the array. Make sure that your printout is readable with
 spaces or new lines between each grade.
@@ -271,7 +271,7 @@ public class GradeBook {
 ```
 
 
-#### k. Write a Java program that computes the sum and product of two matrices. The size of the matrices shall be determined by the user of the program.[Solution File](./LAB1KMatrixOperations.java)
+#### k. Write a Java program that computes the sum and product of two matrices. The size of the matrices shall be determined by the user of the program. [Solution File](./LAB01K/LAB1KMatrixOperations.java)
 > Solution Code  
 ```Java
 import java.util.*;
@@ -490,7 +490,7 @@ public class LAB1KMatrixOperations
 
 ```
 
-#### l. Write a Java program that prints all prime numbers which are less than any number n. The number n shall be determined by the user.[Solution File](./LAB1LPrimeFinder.java)
+#### l. Write a Java program that prints all prime numbers which are less than any number n. The number n shall be determined by the user.[Solution File](./LAB01L/LAB1LPrimeFinder.java)
 > Solution Code  
 ```Java
 import java.util.*;
