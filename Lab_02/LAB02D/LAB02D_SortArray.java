@@ -25,18 +25,24 @@ public class LAB02D_SortArray
     }
     public static void sortArray(double[] arr)
     {
-        // This method will sort a given array usign Selection sort algorithm
+      // This method will sort a given array using Selection sort algorithm
         for( int i = 0 ; i < arr.length-1 ;i++)
         {
-            int minind = getMinIndex(arr, i);
-            if(minind!= i)
+            int minIndex = getMinIndex(arr, i);
+            if(minIndex!= i)
             {
-                double temp = arr[minind];
-                arr[minind] = arr[i];
-                arr[i] = temp;
+            double temp = arr[minIndex];
+            arr[minIndex] = arr[i];
+            arr[i] = temp;
             }
         }
 
+        // Instead of writing your own code you can use the built-in Arrays.sort() method 
+        // uncomment the code bellow to use the built in method
+        
+        /*
+        Arrays.sort(arr);
+        */
     }
     public static int getMinIndex(double[] theArray, int startPosition)
     {
@@ -52,9 +58,9 @@ public class LAB02D_SortArray
         }
         return minIndex;
     }
-    public static void showArray(double[] thearr)
+    public static void showArray(double[] theArray)
     {
-        for(double val: thearr)
+        for(double val: theArray)
         System.out.print(val+" ");
         System.out.println();
     }

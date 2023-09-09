@@ -1,21 +1,27 @@
 public class LAB02A_GradeBookOOP 
 {
-    private double[] grade;
+public static void main(String[] args)
+    {
+        double[] theGrades = new double[args.length];
 
-    public   LAB02A_GradeBookOOP()
-    {
-        grade = new double[0];
+        for(int i = 0 ; i < args.length ; i++)
+        {
+            theGrades[i] = Double.parseDouble(args[i]);
+        }
+
+        printGrades(theGrades);
+        
+        averageGrade(theGrades);
     }
-    public  LAB02A_GradeBookOOP(double[] theInput)
-    {
-        grade = theInput;
-    }
-    public void printGrades()
+
+    public static void printGrades(double[] grade)
     {
         for(double val : grade)
-        System.out.println(val);
+        System.out.print(val+" ");
+        System.out.println();
     }
-    public double averageGrade()
+
+    public static double averageGrade(double[] grade)
     {
         double sum = 0,numberOFStudents = 0;
         for(double val: grade)

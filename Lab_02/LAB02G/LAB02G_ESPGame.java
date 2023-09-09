@@ -4,6 +4,13 @@ public class LAB02G_ESPGame
 {
     public static void main(String[] args)
     {
+        System.out.println("Welcome to the ESP Game!");
+        System.out.println("You will be asked to guess the color that the computer has chosen.");
+        System.out.println("You will be asked to guess 5 times.");
+        System.out.println("For each correct guess, you will be awarded 1 point.");
+        System.out.println("Let's begin!");
+
+        
         int compNumber,userNumber,correctGuesses=0;
         String compColor;
         for(int i = 0 ; i < 5 ;i++)

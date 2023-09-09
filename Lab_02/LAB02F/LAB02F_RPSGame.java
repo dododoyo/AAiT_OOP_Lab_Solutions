@@ -4,7 +4,6 @@ public class LAB02F_RPSGame
 {
     public static void main(String[] args)
     {
-        
             int compChoice = computerChoice();
             int userChoice = userChoice();
             System.out.println();
@@ -66,38 +65,39 @@ public class LAB02F_RPSGame
         else 
         return false;
     }
-    public static void showWinner(int playerchoice, int computerChoice)
+    public static void showWinner(int playerChoice, int computerChoice)
     {
-        
-        if (playerchoice==0 && computerChoice==1)
+        final String loseMessage = "You Lost !";
+        final String winMessage = "You Won !";
+        if (playerChoice==0 && computerChoice==1)
         {
             System.out.println("Paper wraps rock");
-            System.out.println("You lost");
+            System.out.println(loseMessage);
         }
-        else if (playerchoice==0 && computerChoice==2)
+        else if (playerChoice==0 && computerChoice==2)
         {
             System.out.println("Rock destroys Scissor");
-            System.out.println("You won");
+            System.out.println(winMessage);
         }
-        else if (playerchoice==1 && computerChoice==0)
+        else if (playerChoice==1 && computerChoice==0)
         {
-            System.out.println("Paper wraps rock");
-            System.out.println("You won");
+            System.out.println("Paper wraps Rock");
+            System.out.println(winMessage);
         }
-        else if (playerchoice==2 && computerChoice==0)
+        else if (playerChoice==2 && computerChoice==0)
         {
             System.out.println("Rock destroys Scissor");
-            System.out.println("You lost");
+            System.out.println(loseMessage);
         }
-        else if (playerchoice==1 && computerChoice==2)
+        else if (playerChoice==1 && computerChoice==2)
         {
             System.out.println("Scissor cuts Paper");
-            System.out.println("You lost");
+            System.out.println(loseMessage);
         }
-        else if (playerchoice==2 && computerChoice==1)
+        else if (playerChoice==2 && computerChoice==1)
         {
             System.out.println("Scissor cuts Paper");
-            System.out.println("You won");
+            System.out.println(winMessage);
         }
         else 
         {
@@ -115,6 +115,4 @@ public class LAB02F_RPSGame
         else 
         System.out.println("The computer's choice was SCISSOR.");
     }
-    
-    
 }
