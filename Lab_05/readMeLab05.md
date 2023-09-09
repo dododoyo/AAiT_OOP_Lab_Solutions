@@ -1,18 +1,15 @@
-# Laboratory Exercises #2
+# Laboratory Exercises #5
 
 ## Objective
 
--  Enabling students to develop modularize code using Java methods.
--  Introducing method overloading(Compile time polymorphism).
-
+- Demonstrating the concepts of abstract classes, interfaces and polymorphism.
 ## Preparation Tasks
-
--  No preliminary preparation required for this laboratory session
-
+- Understanding/Revising the object oriented concepts that are covered in the previous laboratory sessions.
 ## Activities
 
 
 <center>
+
 ### Feel free to report any typos on [dododoyo](https://github.com/dododoyo)
 
 ### HAPPY CODING  

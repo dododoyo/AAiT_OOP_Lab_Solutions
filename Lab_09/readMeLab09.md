@@ -1,13 +1,11 @@
-# Laboratory Exercises #2
+# Laboratory Exercises #9
 
 ## Objective
 
--  Enabling students to develop modularize code using Java methods.
--  Introducing method overloading(Compile time polymorphism).
-
+- Introducing the basics of Graphical User Interface(GUI) programming using Java programming language.
+- 
 ## Preparation Tasks
-
--  No preliminary preparation required for this laboratory session
+- Understanding the basic concepts of graphical user interfaces that is dealt at the lecture time.
 
 ## Activities
 

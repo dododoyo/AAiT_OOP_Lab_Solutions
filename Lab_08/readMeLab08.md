@@ -1,18 +1,16 @@
-# Laboratory Exercises #2
+# Laboratory Exercises #8
 
 ## Objective
-
--  Enabling students to develop modularize code using Java methods.
--  Introducing method overloading(Compile time polymorphism).
+- Familiarizing about the concept of exception handling using Java programming language.
 
 ## Preparation Tasks
-
--  No preliminary preparation required for this laboratory session
+- Understanding/Revising the concepts of exception handling which is dealt in the lecture class.
 
 ## Activities
 
 
 <center>
+
 ### Feel free to report any typos on [dododoyo](https://github.com/dododoyo)
 
 ### HAPPY CODING  
