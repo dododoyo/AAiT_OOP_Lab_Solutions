@@ -1,5 +1,16 @@
 # Object Oriented Programming - Java
 
+This is a GitHub repository that contains the solutions to the problems of Object-Oriented Programming (OOP).A course that I took in my third year at Addis Ababa University. OOP is a programming paradigm that focuses on the concepts of objects, classes, inheritance, polymorphism, and abstraction. OOP is widely used in many popular programming languages such as Java, C++, Python, and Ruby.
+
+The course was taught to me by [Mr. Hailemelekot Dimtse](https://www.linkedin.com/in/hailemelekot-tessema-7435a450/), who is an instructor in the School Of Electrical and Computer Engineering at Addis Ababa Institute of Technology (AAiT). He He has also compiled and provided the problems for this course.
+
+The repository is organized into different folders, each containing the solutions for a specific topic of OOP. The solutions are written in Java, which is one of the most widely used OOP languages. The solutions are tested and verified using the VSCode IDE.
+
+The repository is intended to help students who are taking or have taken the OOP course at Addis Ababa University with java to review and practice their skills in OOP. It is also useful for anyone who wants to learn or improve their knowledge of OOP concepts and applications.
+
+I hope you find this repository helpful and informative. If you have any questions, comments, or suggestions, please feel free to contact me through [Github](https://github.com/dododoyo)
+ or [Email](mailto:dolphinmulugeta88@gmail.com). Thank you for visiting this repository!
+
 <center>
 
 | Exercise  | <center> Title </center> |
@@ -15,13 +26,11 @@
 | 09 | [Introduction to Graphical User Interfaces (GUI)](./Lab_09/readMeLab09.md)|                  
 | 10 | [Introduction to Java Database Connectivity (JDBC)](./Lab_10/readMeLab10.md)|                  
 
+<br/>
+<br/>
 
 
-
-### Feel free to report any typos on [dododoyo](https://github.com/dododoyo)
-
-### HAPPY CODING  
-# 🧑‍💻 👨‍💻
+<center><img alt='happy-coding' src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&amp;color=red&amp;size=20&amp;lines=Happy+Coding+!+🧑‍💻+ 👨‍💻" style="width: 100%;"></center>
 
 ### Made With 🖤 By  [🐬](https://github.com/dododoyo)
 

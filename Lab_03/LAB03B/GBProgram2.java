@@ -28,6 +28,7 @@ class GBProgram2
         sampleGradebook.printGrades();
         else if ( response == 2)
         System.out.printf("The average grade of the students is :%,.2f",sampleGradebook.averageGrade());
+        System.out.println();
 
     }
 }

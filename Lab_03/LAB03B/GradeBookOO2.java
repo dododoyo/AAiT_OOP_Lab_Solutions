@@ -2,11 +2,10 @@ class GradeBookOO2
 {
     private double[] grade;
 
-    public   GradeBookOO2(int arrayLength)
+    public GradeBookOO2(int arrayLength)
     {
         grade = new double[arrayLength];
     }
-
 
     public void addGrades(double valueAdded, int indexToBeAdded)
     {
@@ -21,17 +20,27 @@ class GradeBookOO2
             System.exit(0);
         }
     }
-    
-    // Can't remove according to instructions just changed the value into '0'.
-    public void deleteGrade(double theGrade)
+
+    public void deleteGrade(double gradeToDelete)
     {
-        for (int i = 0 ; i < grade.length ; i++)
-        {
-            if (grade[i] == theGrade)
-            {
-                grade[i] = 0;
+        int indexToDelete = -1;
+        for (int i = 0; i < grade.length; i++) {
+            if (grade[i] == gradeToDelete) {
+                indexToDelete = i;
+                break;
             }
         }
+        if (indexToDelete == -1) {
+            System.out.println("Grade not found.");
+            return;
+        }
+        double[] newGrade = new double[grade.length - 1];
+        for (int i = 0, j = 0; i < grade.length; i++) {
+            if (i != indexToDelete) {
+                newGrade[j++] = grade[i];
+            }
+        }
+        grade = newGrade;
     }
 
     public void printGrades()
@@ -39,7 +48,7 @@ class GradeBookOO2
         for(double val : grade)
         System.out.println(val);
     }
-    
+
     public double averageGrade()
     {
         double sum = 0,numberOFStudents = 0;
@@ -50,7 +59,4 @@ class GradeBookOO2
         }
         return sum/numberOFStudents;
     }
-    
 }
-
-    

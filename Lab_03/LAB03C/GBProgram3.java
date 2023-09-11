@@ -45,8 +45,6 @@ public class GBProgram3
             sampleGradebook.deleteGrade(removedValue);
         }
         kb.close();
-
     }
 }
-    
 

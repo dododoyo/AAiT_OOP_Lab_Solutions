@@ -19,17 +19,14 @@ class GradeBookOO3
         System.out.println(theValue + " was added sucessfully.");
     }
     
-    
-    public void deleteGrade(double theGrade)
-    {
-        if(grade.contains(theGrade))
-        {
-            System.out.println(theGrade + " was removed sucessfully.");
-        }
-
-        else
+    public void deleteGrade(double theGrade) {
+    if (grade.contains(theGrade)) {
+        grade.remove(theGrade);
+        System.out.println(theGrade + " was removed successfully.");
+    } else {
         System.out.println("The specified grade doesn't exist.");
     }
+}
 
     public void printGrades()
     {
