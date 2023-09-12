@@ -14,12 +14,16 @@
 ## Activities
 
 
+---
+
 <center>
-### Feel free to report any typos on [dododoyo](https://github.com/dododoyo)
 
-### HAPPY CODING  
-# 🧑‍💻 👨‍💻
+### Feel free to report any typos or bugs on [dododoyo](https://github.com/dododoyo)
 
-### Made With 🖤 By  [🐬](https://github.com/dododoyo)
+<img alt='Happy-Coding' src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&amp;color=red&amp;size=20&amp;lines=Happy+Coding+!+🧑‍💻+ 👨‍💻" style="width: 100%;margin-left:25%"></img>
+
+## Made With 🖤 By  [🐬](https://github.com/dododoyo)
 
 </center>
+
+---
