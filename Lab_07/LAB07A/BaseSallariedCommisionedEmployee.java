@@ -1,4 +1,4 @@
-public class BaseSalariedCommisionedEmployee extends CommisionedEmployee
+public class BaseSallariedCommisionedEmployee extends CommissionedEmployee
 {
     private double baseSallary;
     

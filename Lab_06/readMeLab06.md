@@ -14,7 +14,7 @@
 
 #### a. Based on the following UML diagram and instructions given at the bottom develop a simple Java program.
 
-![UML Diagram](./UML.png)
+![UML Diagram](./AnimalUML.png)
 
 - Create the **Animal** class, which is the abstract superclass of all animals.
 

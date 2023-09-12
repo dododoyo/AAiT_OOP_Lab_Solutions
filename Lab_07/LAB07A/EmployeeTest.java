@@ -13,13 +13,13 @@ public class EmployeeTest
         he.setHour(89);
         he.setWage(1000);
 
-        CommisionedEmployee ce = new CommisionedEmployee();
-        ce.setComissionRate(0.19);
+        CommissionedEmployee ce = new CommissionedEmployee();
+        ce.setCommissionRate(0.19);
         ce.setGrossSale(20000);
 
-        BaseSalariedCommisionedEmployee bsce = new BaseSalariedCommisionedEmployee();
+        BaseSallariedCommisionedEmployee bsce = new BaseSallariedCommisionedEmployee();
         bsce.setBaseSalary(9000);
-        bsce.setComissionRate(0.20);
+        bsce.setCommissionRate(0.20);
         bsce.setGrossSale(100000);
 
         Employee e[]=new Employee[4];
@@ -30,18 +30,18 @@ public class EmployeeTest
 
         for(Employee myEmp:e)
         {
-            if(myEmp instanceof BaseSalariedCommisionedEmployee)
+            if(myEmp instanceof BaseSallariedCommisionedEmployee)
             {
-                BaseSalariedCommisionedEmployee emp = (BaseSalariedCommisionedEmployee)myEmp;
+                BaseSallariedCommisionedEmployee emp = (BaseSallariedCommisionedEmployee)myEmp;
                 emp.setBaseSalary(4000);
-                emp.setComissionRate(0.15);
+                emp.setCommissionRate(0.15);
                 emp.setGrossSale(10000); 
                 System.out.println(myEmp);
             }
-            else if(myEmp instanceof CommisionedEmployee)
+            else if(myEmp instanceof CommissionedEmployee)
             {
-                CommisionedEmployee emp = (CommisionedEmployee)myEmp;
-                emp.setComissionRate(0.15);
+                CommissionedEmployee emp = (CommissionedEmployee)myEmp;
+                emp.setCommissionRate(0.15);
                 emp.setGrossSale(10000);
                 System.out.println(myEmp);
             }
@@ -76,9 +76,9 @@ public class EmployeeTest
         System.out.println("\nCalling the empDiscription method using instance of CommisionedEmployee class as an arguement");
         empDescription(ce);
         /*
-        Calling the empDiscription method with instance of BaseSalariedCommisionedEmployee class
+        Calling the empDiscription method with instance of BaseSallariedCommisionedEmployee class
         */
-        System.out.println("\n Calling the empDiscription method using instance of BaseSalariedCommisionedEmployee class as an arguement");
+        System.out.println("\n Calling the empDiscription method using instance of BaseSallariedCommisionedEmployee class as an arguement");
         empDescription(bsce);
     }
 }

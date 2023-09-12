@@ -1,15 +1,15 @@
-public class CommisionedEmployee extends Employee
+public class CommissionedEmployee extends Employee
 {
     private double grossSale;
     private double commissionRate;
 
     public void setGrossSale(double theSale){grossSale = theSale;}
 
-    public void setComissionRate(double theRate){commissionRate = theRate;}
+    public void setCommissionRate(double theRate){commissionRate = theRate;}
 
     public double getGrossSale(){return grossSale;}
 
-    public double getComissionRate(){return commissionRate;}
+    public double getCommissionRate(){return commissionRate;}
 
     public double calculateEarnings()
     {
