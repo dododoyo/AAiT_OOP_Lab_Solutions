@@ -40,7 +40,7 @@
 
 <img alt='Happy-Coding' src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&amp;color=red&amp;size=20&amp;lines=Happy+Coding+!+🧑‍💻+ 👨‍💻" style="width: 100%;margin-left:25%"></img>
 
-## Made With 🖤 By  [🐬](https://github.com/dododoyo)
+### Made With 🖤 By  [🐬](https://github.com/dododoyo)
 
 </center>
 

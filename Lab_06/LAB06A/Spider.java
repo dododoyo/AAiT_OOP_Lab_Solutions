@@ -10,7 +10,4 @@ public class Spider extends Animal
     {
         System.out.println("I am eating a mosquito.");
     }
-
-    
-    
 }

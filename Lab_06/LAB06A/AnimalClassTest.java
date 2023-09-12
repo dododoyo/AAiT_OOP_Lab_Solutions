@@ -49,8 +49,5 @@ public class AnimalClassTest
         System.out.println("The name of the pet is "+ p.getName());
         p.setName("Tom");
         System.out.println("The name of the pet now is "+ p.getName());
-        
-
     }
-    
 }
