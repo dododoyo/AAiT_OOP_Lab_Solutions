@@ -13,14 +13,14 @@ public class Fraction
     {
         if (theDenominator == 0)
         {
-            System.out.println("Can't intialize with denominator value '0'.");
+            System.out.println("Can't initialize with denominator value '0'.");
             System.out.println("Please restart the program");
             System.exit(0);
         }
         else
         {
             numerator = theNumerator;
-           denominator = theDenominator;
+            denominator = theDenominator;
         }
     
     }
@@ -44,7 +44,7 @@ public class Fraction
     {
         if (denominator == 0)
         {
-            System.out.println("Can't intialize with denominator value '0'.");
+            System.out.println("Can't initialize with denominator value '0'.");
             System.out.println("Please restart the program");
             System.exit(0);
         }
@@ -52,7 +52,6 @@ public class Fraction
         {
             this.denominator = denominator;
         }
-        
     }
 
     public String formString()
@@ -66,10 +65,7 @@ public class Fraction
         int denominatorOfFraction = fractionToBeSimplified.getDenominator();
 
         int min = Math.min(numeratorOfFraction,denominatorOfFraction);
-
-        Fraction simplifiedFraction = fractionToBeSimplified;
         
-
         if(isPrime(numeratorOfFraction) && isPrime(denominatorOfFraction))
         return fractionToBeSimplified;
 
@@ -84,8 +80,6 @@ public class Fraction
                     divider = i;
                     break;
                 }
-                
-
             }
 
             if (divider == 1)
@@ -94,7 +88,7 @@ public class Fraction
             }
             else
             {
-                simplifiedFraction(fractionToBeSimplified);
+                return simplify(fractionToBeSimplified);
             }
         }
 
