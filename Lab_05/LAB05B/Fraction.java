@@ -1,4 +1,4 @@
-package ADT;
+
 
 public class Fraction 
 {
@@ -22,7 +22,7 @@ public class Fraction
         else
         {
             numerator = theNumerator;
-           denominator = theDenominator;
+            denominator = theDenominator;
         }
     
     }
@@ -69,9 +69,6 @@ public class Fraction
 
         int min = Math.min(numeratorOfFraction,denominatorOfFraction);
 
-        Fraction simplifiedFraction = fractionToBeSimplified;
-        
-
         if(isPrime(numeratorOfFraction) && isPrime(denominatorOfFraction))
         return fractionToBeSimplified;
 
@@ -86,8 +83,6 @@ public class Fraction
                     divider = i;
                     break;
                 }
-                
-
             }
 
             if (divider == 1)
@@ -96,12 +91,9 @@ public class Fraction
             }
             else
             {
-                simplifiedFraction(fractionToBeSimplified);
+                return simplify(fractionToBeSimplified);
             }
         }
-
-        //return simplifiedFraction;
-
     }
 
     public boolean isPrime(int theNumber)
@@ -111,7 +103,6 @@ public class Fraction
         {
             if(theNumber%i == 0)
             counter++;
-    
         }
 
         if (counter == 0)
@@ -119,7 +110,6 @@ public class Fraction
 
         else 
         return false;
-
     }
 
     public Fraction addFraction(Fraction fraction1, Fraction fraction2)
@@ -157,5 +147,4 @@ public class Fraction
         else 
         return false;
     }
-  
 }
