@@ -101,8 +101,7 @@ class GradeBookOO
     }
 }
 ```
-- Create a new class called GBProgram. Add a main method to GBProgram which instantiates a Gradebook with an array of grades, prints out all the grades with a call to the printGrades method, and finds the average grade with the averageGrade method. Compile and run.
-- 
+- Create a new class called GBProgram. Add a main method to GBProgram which instantiates a Gradebook with an array of grades, prints out all the grades with a call to the printGrades method, and finds the average grade with the averageGrade method. Compile and run. 
 - Print out a menu to the user, as described in the previous lab session that allows the user to select whether they would like to print out all the grades or find the average grade.
 
 [Solution for the second Instruction](./LAB03A/GBProgram1.java)
@@ -368,7 +367,7 @@ class GradeBookOO3
     }
 }
 ```
-> Changes to the GBProgram is not necessary but optional if we want to access the new methods.
+> *Changes to the GBProgram is not necessary but optional if we want to access the new methods.*
 
 <br>
 
@@ -468,7 +467,6 @@ class Point
         return y;
     }
 
-    
     public double distanceWith(Point thePoint)
     {
         double distance = Math.pow(Math.pow(thePoint.getX()-this.x,2)+Math.pow(thePoint.getY()-this.y,2),0.5);
@@ -581,7 +579,6 @@ public class ComplexNumber
         double realSub = complex1.getReal()-complex2.getReal();
         double imaginarySub = complex1.getImaginary() - complex2.getImaginary();
 
-        
         return  new ComplexNumber(realSub,imaginarySub);
     }
 
@@ -665,7 +662,6 @@ public class ComplexNumberOperationTest
         ComplexNumber number2 = new ComplexNumber(3,4);
         //LAB03E_ComplexNumber number3;//used to store values after operation
 
-
         // Setting the value of complex number 1 using setter methods
         number1.setImaginary(2);
         number1.setReal(5);
@@ -679,7 +675,6 @@ public class ComplexNumberOperationTest
         System.out.println("The real part of the second complex number is "+number2.getReal());
         System.out.println("The imaginary part of the second complex number is "+number2.getImaginary());
         System.out.println();
-
 
         //Testing addition method 
         //number3 = number1.addComplex(number1, number2).showComplex();
