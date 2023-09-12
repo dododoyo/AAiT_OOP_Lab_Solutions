@@ -15,7 +15,6 @@ public class printArray2
 
                 //if not
                 System.out.println("The element number "+ (i+1)+" is " +theIntArray[i]);
-
             }
 
         }
@@ -25,6 +24,5 @@ public class printArray2
             System.out.println("\nThat would be all.");
             System.out.println("Looks like we reached the end of the array.");
         }
-        
     }
 }
