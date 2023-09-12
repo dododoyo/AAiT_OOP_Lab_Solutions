@@ -330,7 +330,6 @@ public class FractionGUI extends JFrame
 {
     // To be created 
 }
-
 ```
 
 #### f. Develop a simple calculator using Java Swing GUI application. The functionality requirement of the application shall be as your preference but it must have at least the basic functionality expected from common simple calculators but you are free to use your own preference with regard to graphics and related implementations.
