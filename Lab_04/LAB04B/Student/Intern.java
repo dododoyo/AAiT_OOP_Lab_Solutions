@@ -18,6 +18,3 @@ public class Intern extends Undergrad
         return super.description() + " "+ this.getPay();
     }
 }
-
-    
-

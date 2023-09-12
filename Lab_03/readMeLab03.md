@@ -506,6 +506,8 @@ public class PointTest
 - Two constructors: The one with two parameters as a double and the other with no parameters.
 - The class shall also comprise the following methods(As per they are are shown in the following table:
   
+<center>
+
 | Function | <center> Parameters </center> | <center>Return Type</center>
 | ----------- | ----------- | ----------- |
 | addComplex | Two complexNumberOperation object | Complex number object |
@@ -518,6 +520,9 @@ public class PointTest
 | setComplex |double | void |
 | getComplex | - | double |
 ||
+
+</center>
+
 - All the constructors and methods shall be implemented well to perform the intended functionality. In addition the third public attributes are used to count how many objects of (instances) are created form the class.
 - All the constructors and methods shall be implemented well to perform the intended functionality. In addition the third public attribute is used to count how many objects of (instances of) complexNumberOperation are created. 
 - After completing the implementation of the class create another class called complexNumberOperationTest in your current package and write a Java code to define a main method inside the class. - - Then implement all necessary functionality to test you previous class.

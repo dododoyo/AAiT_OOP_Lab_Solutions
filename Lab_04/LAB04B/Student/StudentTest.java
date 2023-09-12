@@ -8,7 +8,7 @@ public class StudentTest
         ResearchAssistant student4 = new ResearchAssistant("Ermias Bulo", 60000);
         Grad student5 = new Grad("Getachew Belete");
 
-        System.out.println("Name of student 1 is " + student1.getName()+" in year "+student1.getYear()+".");
+        System.out.println("Student 1 is " + student1.getName()+" in year "+student1.getYear()+".");
         System.out.println("Student 2 " +student2.description());
         System.out.println("Student 3 " +student3.description());
         System.out.println("Student 4 " +student4.description());
